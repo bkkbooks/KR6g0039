@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6g0039/v1
+canonical_location: https://kanripo.org/bkk/KR6g0039/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛入涅槃密迹金剛力士哀戀經
+  identifiers:
+    alt_id:
+    - T12n0394
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0394.xml
+    old_id: T12n0394
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0039_000.yaml, hash: 'sha256:39d7889552786d27fd3e46a18754c2fbd9831c9f1a620c5bd0d68b16562199d0'}
+  - {seq: 1, filename: KR6g0039_001.yaml, hash: 'sha256:d9d80d9a43613bbf2fbd17fbf62149a11b38051d8e22ecec08126a91a41963cc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6g0039_001.markers.yaml, hash: 'sha256:588ecce26994b1e6b5fe7214bb3f3ac8b9ba9123b9e1f57b58c042a2b9e956c3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0039_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2649
+  label: 佛入涅槃密迹金剛力士哀戀經
+  type: juan
+  level: 1
+hash: sha256:ff28e2446cb6cfcca022fe034a44792c862db55b9862415139cb7a390db68ec1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
