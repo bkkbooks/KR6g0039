@@ -37,9 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6g0039_000.yaml, hash: 'sha256:39d7889552786d27fd3e46a18754c2fbd9831c9f1a620c5bd0d68b16562199d0'}
-  - {seq: 1, filename: KR6g0039_001.yaml, hash: 'sha256:d9d80d9a43613bbf2fbd17fbf62149a11b38051d8e22ecec08126a91a41963cc'}
+  - {seq: 1, filename: KR6g0039_001.yaml, hash: 'sha256:5e73a0687f14aa29735565e0252f966bf88d8f04cb2232c8ed2df77cc16eb6c6'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6g0039_001.markers.yaml, hash: 'sha256:588ecce26994b1e6b5fe7214bb3f3ac8b9ba9123b9e1f57b58c042a2b9e956c3'}
+  - {seq: 0, role: markers, filename: assets/KR6g0039_000.markers.yaml, hash: 'sha256:aced01c4dd7aa4d08deb5c3ff7b2fdda9c916bca4278b143228d92e16a184628'}
+  - {seq: 1, role: markers, filename: assets/KR6g0039_001.markers.yaml, hash: 'sha256:2bcec0af8a805c74052a63eb3a4a49b8558a3479d58d29b4f2ca1d7f7ad35602'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,7 +52,4 @@ table_of_contents:
   label: 佛入涅槃密迹金剛力士哀戀經
   type: juan
   level: 1
-hash: sha256:ff28e2446cb6cfcca022fe034a44792c862db55b9862415139cb7a390db68ec1
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:6629e94848c9ca691273b44130efb0b5771edf893b6f7956846f72d7ad3d51c8
